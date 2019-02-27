@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js example 1</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    
+    <script>
+        var date = new Date();        
+//        alert('Today is ' + date);
+//        document.body.innerHTML = '<h3>Today is ' + date + '</h3>';
+        document.body.innerHTML = '<h3>Today is ' + (date.getMonth()+1) + '/' + date.getDate() + '/' + date.getFullYear() + '</h3>';
+    </script>
+</body>
+</html>
